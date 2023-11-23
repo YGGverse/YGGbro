@@ -1,0 +1,43 @@
+# Stream mirrors for https://somafm.com/
+
+server {
+
+  # HTTP/IPv6 connections only
+  # listen [::]:80 ipv6only=on;
+
+  # Yggdrasil connections only
+  # allow 0200::/7;
+  # deny  all;
+
+  # Tell to server, that's proxy request
+  # proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  # proxy_set_header X-Real-IP $remote_addr;
+
+  location /soma.fm/suburbsofgoa/128/mp3 {
+    proxy_pass http://ice6.somafm.com/suburbsofgoa-128-mp3;
+  }
+
+  location /soma.fm/thetrip/128/mp3 {
+    proxy_pass http://ice5.somafm.com/thetrip-128-mp3;
+  }
+
+  location /soma.fm/thistle/128/mp3 {
+    proxy_pass http://ice4.somafm.com/thistle-128-mp3;
+  }
+
+  location /soma.fm/cliqhop/128/mp3 {
+    proxy_pass http://ice6.somafm.com/cliqhop-128-mp3;
+  }
+
+  location /soma.fm/lush/128/mp3 {
+    proxy_pass http://ice6.somafm.com/lush-128-mp3;
+  }
+
+  location /soma.fm/deepspaceone/128/mp3 {
+    proxy_pass http://ice6.somafm.com/deepspaceone-128-mp3;
+  }
+
+  location /soma.fm/sonicuniverse/128/mp3 {
+    proxy_pass http://ice6.somafm.com/sonicuniverse-128-mp3;
+  }
+}
