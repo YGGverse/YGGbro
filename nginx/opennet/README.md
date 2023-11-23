@@ -15,6 +15,7 @@ Current implementation forward subdomains to following proxy locations:
 * `solaris.opennet.ru` > `/opennet/solaris`
 * `web.opennet.ru` > `/opennet/web`
 * `wiki.opennet.ru` > `/opennet/wiki`
+* `forum.opennet.ru` > `/opennet/wwwcgi-bin/openforum/vsluhboard.cgi`
 
 ## Installation
 
