@@ -1,6 +1,6 @@
 # YGGbro
 
-Collection of web proxies with configuration examples for Yggdrasil
+Collection of proxies with configuration examples for Yggdrasil
 
 This repository maintained by community, feel free to share your fixes, configuration examples or new instances into the list below!
 
@@ -10,9 +10,21 @@ This repository maintained by community, feel free to share your fixes, configur
 
 ## Instances
 
+### I2P
+
 ### Internet
 
-#### Radio
+#### NextCloud
+
+* [cloud.i2pd.xyz](https://cloud.i2pd.xyz/)
+  + `http://[321:c99a:91a1:cd2c::2]`
+
+#### GIT
+
+* [git.i2pd.xyz](https://git.i2pd.xyz/)
+  + `http://[316:c51a:62a3:8b9::4]/`
+
+##### Radio
 
 * [somafm.com](https://somafm.com/) | [nginx](https://github.com/YGGverse/YGGbro/blob/main/nginx/soma.fm)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/suburbsofgoa`
