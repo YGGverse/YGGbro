@@ -10,7 +10,7 @@ This repository maintained by community, feel free to share your fixes, configur
 
 ## Instances
 
-### External
+### Internet
 
 #### Radio
 
