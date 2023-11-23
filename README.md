@@ -2,15 +2,17 @@
 
 Collection of web proxies with configuration examples for Yggdrasil
 
-This repository maintained by community, feel free to share your fixes, configuration examples or mirrors into the list below!
+This repository maintained by community, feel free to share your fixes, configuration examples or new instances into the list below!
 
 ## Settings
 
 * [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx)
 
-## Mirrors
+## Instances
 
-### Radio
+### External
+
+#### Radio
 
 * [somafm.com](https://somafm.com/) | [nginx](https://github.com/YGGverse/YGGbro/blob/main/nginx/soma.fm)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/suburbsofgoa`
@@ -59,7 +61,7 @@ If you're running own station in Yggdrasil network, also take a look:
 
 [YGGwave ~ The Radio Stations Catalog](https://github.com/YGGverse/YGGwave)
 
-### Torrent
+#### Torrent
 
 * [rutracker.org](https://rutracker.org/)
   + `http://[321:c99a:91a1:cd2c::18]/`
@@ -67,12 +69,12 @@ If you're running own station in Yggdrasil network, also take a look:
 * [rutor.is](https://rutor.is/)
   + `http://[321:c99a:91a1:cd2c::16]/`
 
-### Books
+#### Books
 
 * [flibusta.site](https://flibusta.site/)
   + `http://[321:c99a:91a1:cd2c::7]/`
 
-### IT
+#### IT
 
 * [opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/blob/main/nginx/opennet/www-less)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/opennet`
@@ -82,7 +84,7 @@ If you're running own station in Yggdrasil network, also take a look:
 * [linux-ru.ru](https://linux-ru.ru/)
   + `http://[221:58c9:9a6:99be:f3d:c1ac:2b5b:9771]/`
 
-### News
+#### News
 
 * [texty.org.ua](https://texty.org.ua/) | [nginx](https://github.com/YGGverse/YGGbro/blob/main/nginx/texty.org.ua)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/texty.org.ua/`
