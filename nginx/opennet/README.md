@@ -26,4 +26,4 @@ Current implementation forward subdomains to following proxy locations:
 
 1. At this moment, config drops all JS some tabs could not work
 2. Youtube embedded content still works
-3. Redirect cases not implemented yet and require additional rules implementation
+3. Redirect cases for some sub-domains require additional rules implementation
