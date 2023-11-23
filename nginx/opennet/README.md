@@ -19,7 +19,7 @@ Current implementation forward subdomains to following proxy locations:
 ## Installation
 
 1. Download `nginx/opennet` content to `/etc/nginx/opennet` folder
-2. Copy `nginx/opennet/server.conf` to `sites-available/opennet.conf`
+2. Copy `nginx/opennet/server.conf` to `/etc/nginx/sites-available/opennet.conf` then change commented options for your needs
 3. Alternatively, include `nginx/opennet/locations.conf` to existing website config at `sites-available` then reload nginx configuration
 
 ## Issues
