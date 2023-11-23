@@ -88,9 +88,9 @@ If you're running own station in Yggdrasil network, also take a look:
 
 #### IT
 
-* [opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/blob/main/nginx/opennet/www-less)
+* [opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/opennet`
-* [www.opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/blob/main/nginx/opennet/www)
+* [www.opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/opennet/www`
 
 * [linux-ru.ru](https://linux-ru.ru/)
