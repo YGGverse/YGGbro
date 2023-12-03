@@ -19,7 +19,7 @@ Current implementation forward subdomains to following proxy locations:
 
 ## Install
 
-* `ln -s /etc/yggbro/nginx/opennet/server.conf /etc/nginx/sites-enabled/yggbro.opennet.conf`
+* `ln -s /etc/yggbro/nginx/yggbro/opennet/server.conf /etc/nginx/sites-enabled/yggbro.opennet.conf`
 * `nginx -t`
 * `service nginx reload`
 

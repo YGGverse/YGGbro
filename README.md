@@ -23,7 +23,7 @@ This repository maintained by community, feel free to share your fixes, configur
 
 ## Contribution
 
-* Grab latest YGGbro version `git clone https://github.com/YGGverse/YGGbro.git`
+* Get latest YGGbro version `git clone https://github.com/YGGverse/YGGbro.git`
 * Navigate to repo folder `cd YGGbro`
 * Make sure `git checkout master`, create new branch for new PR `git checkout -b some-provider-name`
 
