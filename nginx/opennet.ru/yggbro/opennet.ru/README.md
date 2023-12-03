@@ -19,13 +19,37 @@ Current implementation forward subdomains to following proxy locations:
 
 ## Install
 
+This is subfolder configuration, use `server.conf` preset only when `default_server` not defined in your system:
+
 * `ln -s /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/server.conf /etc/nginx/sites-enabled/yggbro.opennet.ru.yggbro.opennet.ru.conf`
+
+Alternatively, add following requirements to existing `default_server`:
+
+```
+include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/handles/redirect.conf;
+include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/locations.conf;
+```
+
+Test configuration and apply changes
+
 * `nginx -t`
 * `service nginx reload`
 
 ## Uninstall
 
+Remove following requirements from existing `default_server`:
+
+```
+include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/handles/redirect.conf;
+include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/locations.conf;
+```
+
+Remove symlink if added before:
+
 * `rm /etc/nginx/sites-enabled/yggbro.opennet.ru.yggbro.opennet.ru.conf`
+
+Test configuration and apply changes
+
 * `nginx -t`
 * `service nginx reload`
 
