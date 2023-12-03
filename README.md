@@ -94,10 +94,9 @@ If you're running own station in Yggdrasil network, take a look also:
 #### IT
 
 * [opennet.ru](https://opennet.ru/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/opennet`
-  + `http://opennet.bro.ygg`
+  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggbro/opennet/` | [opennet.bro.ygg](http://opennet.bro.ygg)
 
 #### News
 
 * [texty.org.ua](https://texty.org.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/texty.org.ua/`
+  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggbro/texty.org.ua/` | [texty.org.ua.bro.ygg](http://texty.org.ua.bro.ygg)
