@@ -1,0 +1,20 @@
+# Mirror for Radio Sraka
+# https://www.facebook.com/s.r.a.k.a.radio
+
+server {
+
+  # HTTP/IPv6 connections only
+  # listen [::]:80 ipv6only=on;
+
+  # Yggdrasil connections only
+  # allow 0200::/7;
+  # deny  all;
+
+  # Tell to server, that's proxy request
+  # proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+  # proxy_set_header X-Real-IP $remote_addr;
+
+  location /radiosraka/stream {
+    proxy_pass http://212.26.146.50:8000/sraka.mp3;
+  }
+}
