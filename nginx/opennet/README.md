@@ -1,4 +1,4 @@
-# Nginx proxy configuration for OpenNet
+# Nginx proxy configuration for OpenNet located at subfolder
 
 Current implementation forward subdomains to following proxy locations:
 
@@ -17,11 +17,17 @@ Current implementation forward subdomains to following proxy locations:
 * `wiki.opennet.ru` > `/opennet/wiki`
 * `forum.opennet.ru` > `/opennet/wwwcgi-bin/openforum/vsluhboard.cgi`
 
-## Installation
+## Install
 
-1. Download `nginx/opennet` content to `/etc/nginx/opennet` folder
-2. Copy `nginx/opennet/server.conf` to `/etc/nginx/sites-available/opennet.conf` then change commented options for your needs
-3. Alternatively, include `nginx/opennet/locations.conf` to existing website config at `sites-available` then reload nginx configuration
+* `ln -s /etc/yggbro/nginx/opennet/server.conf /etc/nginx/sites-enabled/yggbro.opennet.conf`
+* `nginx -t`
+* `service nginx reload`
+
+## Uninstall
+
+* `rm /etc/nginx/sites-enabled/yggbro.opennet.conf`
+* `nginx -t`
+* `service nginx reload`
 
 ## Issues
 
