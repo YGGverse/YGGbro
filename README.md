@@ -1,8 +1,6 @@
-# YGGbro
+# YGGbro - proxy presets for modern servers
 
-Collection of proxies with simple installation for Yggdrasil
-
-This repository maintained by community, feel free to share your fixes, configuration examples or new instances!
+This project maintained by community, feel free to share your improvements or new instances!
 
 ## Install
 
@@ -23,18 +21,24 @@ This repository maintained by community, feel free to share your fixes, configur
 
 ## Contribution
 
-* Get latest YGGbro version `git clone https://github.com/YGGverse/YGGbro.git`
+* Get latest version `git clone https://github.com/YGGverse/YGGbro.git`
 * Navigate to repo folder `cd YGGbro`
-* Make sure `git checkout master`, create new branch for new PR `git checkout -b some-provider-name`
+* Use `git checkout master` then create new branch for each new PR `git checkout -b some-provider-name`
 
 ### Nginx
 
-* Create new folder for each new provider `mkdir nginx/some-provider-name`
-* Describe inside at least one server configuration `nginx/some-provider-name/server.conf`
-* Create `nginx/some-provider-name/README.md` and describe install/uninstall steps
+Please, follow existing file tree and namespace model
+
+* Create namespace folder for new proxy source if not available yet `mkdir nginx/some-provider-name`
+  + Namespace folder must have same name as it `proxy_pass` target value
+* Add provider folder into namespace created `mkdir nginx/some-provider-name/some-provider-alias`
+  + Provider folder must have same name as it `server_name` value
+  + For subfolder configurations, just make plain folder name without dots
+* Attach at least one server file configuration `nginx/some-provider-name/some-provider-alias/server.conf`
+* Create `nginx/some-provider-name/some-provider-alias/README.md` and describe install/uninstall steps
 * Send your PR to this repo
 
-YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instances by request!
+_*YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instances by request._
 
 ## Registry
 
@@ -87,14 +91,14 @@ YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instances 
 * [vanilladnb.co.ua](https://vanilladnb.co.ua/)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/vanilladnb`
 
-If you're running own station in Yggdrasil network, take a look also:
+If you're running own station in Yggdrasil network, take a look at:
 
 [YGGwave ~ The Radio Stations Catalog](https://github.com/YGGverse/YGGwave)
 
 #### IT
 
 * [opennet.ru](https://opennet.ru/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggbro/opennet/` | [opennet.bro.ygg](http://opennet.bro.ygg)
+  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggbro/opennet.ru/` | [opennet.ru.bro.ygg](http://opennet.ru.bro.ygg)
 
 #### News
 
