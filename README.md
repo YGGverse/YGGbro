@@ -97,12 +97,12 @@ If you're running own station in Yggdrasil network, take a look at:
 
 #### IT
 
-* [opennet.ru](https://opennet.ru/)
+* [opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggbro/opennet.ru/` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru/yggbro/opennet.ru)
   + [opennet.ru.bro.ygg](http://opennet.ru.bro.ygg) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru/opennet.ru.bro.ygg)
 
 #### News
 
-* [texty.org.ua](https://texty.org.ua/)
+* [texty.org.ua](https://texty.org.ua/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua)
   + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggbro/texty.org.ua/` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua/yggbro/texty.org.ua)
   + [texty.org.ua.bro.ygg](http://texty.org.ua.bro.ygg) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua/texty.org.ua.bro.ygg)
