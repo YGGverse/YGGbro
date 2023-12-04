@@ -1,10 +1,6 @@
-# YGGbro - Yggdrasil proxy set for modern servers
+# YGGbro - proxy preset for modern servers
 
-Different resources require custom setup to make them properly work in proxy mode.
-
-This project created to make community maintained registry and keep presets actual with time.
-
-It allows to simply deploy new server and apply latest updates from repo with just few commands.
+Simply deploy new proxy or apply updates by few commands!
 
 ## Install
 
