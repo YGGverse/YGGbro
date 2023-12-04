@@ -1,6 +1,10 @@
 # YGGbro - proxy presets for modern servers
 
-This project maintained by community, feel free to share your improvements or new instances!
+Different resources require custom setup to make them properly work in proxy mode.
+
+This project created to make community maintained registry and keep presets actual with time.
+
+It allows to simply deploy new server and apply latest updates from repo with just few commands.
 
 ## Install
 
