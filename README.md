@@ -1,4 +1,4 @@
-# YGGbro - Yggdrasil proxy presets for modern servers
+# YGGbro - Yggdrasil proxy set for modern servers
 
 Different resources require custom setup to make them properly work in proxy mode.
 
@@ -41,7 +41,7 @@ Please, follow existing file tree and namespace model
 * Attach at least one server file configuration `nginx/some-domain-name/some-provider-name/server.conf`
   + For subfolder, attach location file `nginx/some-domain-name/some-provider-name/location.conf`
 * Create `nginx/some-domain-name/some-provider-name/README.md` and describe there install/uninstall steps
-* Send your PR to this repo
+* Send PR to this repo
 
 _*YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instances by request._
 
