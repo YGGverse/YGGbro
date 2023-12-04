@@ -1,4 +1,4 @@
-# YGGbro - proxy presets for modern servers
+# YGGbro - Yggdrasil proxy presets for modern servers
 
 Different resources require custom setup to make them properly work in proxy mode.
 
