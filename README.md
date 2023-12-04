@@ -39,7 +39,7 @@ Please, follow existing file tree and namespace model
   + Provider folder must have same name as it `server_name` value
   + For subfolder configurations, just make plain folder name without dots
 * Attach at least one server file configuration `nginx/some-domain-name/some-provider-name/server.conf`
-  + For subfolder configurations, attach location file also `nginx/some-domain-name/some-provider-name/location.conf`
+  + For subfolder, attach location file `nginx/some-domain-name/some-provider-name/location.conf`
 * Create `nginx/some-domain-name/some-provider-name/README.md` and describe there install/uninstall steps
 * Send your PR to this repo
 
