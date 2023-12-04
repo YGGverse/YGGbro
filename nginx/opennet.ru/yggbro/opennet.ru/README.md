@@ -27,7 +27,7 @@ Alternatively, add following requirements to existing `default_server`:
 
 ```
 include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/handles/redirect.conf;
-include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/locations.conf;
+include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/location.conf;
 ```
 
 Test configuration and apply changes
@@ -41,7 +41,7 @@ Remove following requirements from existing `default_server`:
 
 ```
 include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/handles/redirect.conf;
-include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/locations.conf;
+include /etc/yggbro/nginx/opennet.ru/yggbro/opennet.ru/location.conf;
 ```
 
 Remove symlink if added before:

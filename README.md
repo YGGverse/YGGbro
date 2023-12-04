@@ -33,13 +33,14 @@ It allows to simply deploy new server and apply latest updates from repo with ju
 
 Please, follow existing file tree and namespace model
 
-* Create namespace folder for new proxy source if not available yet `mkdir nginx/some-provider-name`
+* Create namespace folder for new proxy source if not available yet `mkdir nginx/some-domain-name`
   + Namespace folder must have same name as it `proxy_pass` target value
-* Add provider folder into namespace created `mkdir nginx/some-provider-name/some-provider-alias`
+* Add provider folder into namespace created `mkdir nginx/some-domain-name/some-provider-name`
   + Provider folder must have same name as it `server_name` value
   + For subfolder configurations, just make plain folder name without dots
-* Attach at least one server file configuration `nginx/some-provider-name/some-provider-alias/server.conf`
-* Create `nginx/some-provider-name/some-provider-alias/README.md` and describe install/uninstall steps
+* Attach at least one server file configuration `nginx/some-domain-name/some-provider-name/server.conf`
+  + For subfolder configurations, attach location file also `nginx/some-domain-name/some-provider-name/location.conf`
+* Create `nginx/some-domain-name/some-provider-name/README.md` and describe there install/uninstall steps
 * Send your PR to this repo
 
 _*YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instances by request._

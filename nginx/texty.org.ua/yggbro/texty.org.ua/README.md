@@ -13,7 +13,7 @@ This is subfolder configuration, use `server.conf` preset only when `default_ser
 Alternatively, add following line to existing `default_server`:
 
 ```
-include /etc/yggbro/nginx/texty.org.ua/yggbro/texty.org.ua/locations.conf;
+include /etc/yggbro/nginx/texty.org.ua/yggbro/texty.org.ua/location.conf;
 ```
 
 Test configuration and apply changes
@@ -30,7 +30,7 @@ Remove symlink if exists:
 Remove following line from existing `default_server`:
 
 ```
-include /etc/yggbro/nginx/texty.org.ua/yggbro/texty.org.ua/locations.conf;
+include /etc/yggbro/nginx/texty.org.ua/yggbro/texty.org.ua/location.conf;
 ```
 
 Test configuration and apply changes
