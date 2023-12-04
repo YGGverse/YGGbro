@@ -13,7 +13,7 @@ It allows to simply deploy new server and apply latest updates from repo with ju
 ## Update
 
 * `cd /etc/yggbro`
-* `git fetch`
+* `git pull`
 * `nginx -t`
 * `service nginx reload`
 
