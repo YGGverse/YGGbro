@@ -51,55 +51,6 @@ _*YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instance
 
 ### Internet
 
-##### Radio
-
-* [somafm.com](https://somafm.com/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/suburbsofgoa`
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/thetrip`
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/thistle`
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/cliqhop`
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/lush`
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/deepspaceone`
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/somafm/sonicuniverse`
-
-* [djfm.ua](https://djfm.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/djfm`
-
-* [hromadskeradio.org](https://hromadskeradio.org/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/hromadske`
-
-* [liquiradio.com](https://liquiradio.com/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/liqui`
-
-* [loungefm.com.ua](https://loungefm.com.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/loungefm`
-
-* [mjoy.ua](https://mjoy.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/rzk`
-
-* [radiobayraktar.ua](https://radiobayraktar.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/radiobayraktar`
-
-* [radiojazz.ua](https://radiojazz.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/jazz`
-
-* [radioroks.ua](https://radioroks.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/roks`
-
-* [rockradioua.online](https://rockradioua.online/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/rockradioua/rock`
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/rockradioua/metal`
-
-* [urbanspaceradio.com](https://urbanspaceradio.com/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/urban-space-radio`
-
-* [vanilladnb.co.ua](https://vanilladnb.co.ua/)
-  + `http://[201:23b4:991a:634d:8359:4521:5576:15b7]/yggwave/radio/vanilladnb`
-
-If you're running own station in Yggdrasil network, take a look at:
-
-[YGGwave ~ The Radio Stations Catalog](https://github.com/YGGverse/YGGwave)
-
 #### IT
 
 * [opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru)
