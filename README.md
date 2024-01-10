@@ -51,13 +51,13 @@ _*YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instance
 
 * [opennet.ru](https://opennet.ru/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru)
   + `http://[201:5eb5:f061:678e:7565:6338:c02c:5251]/yggbro/opennet.ru/` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru/yggbro/opennet.ru)
-  + `opennet.ru.bro.ygg` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru/opennet.ru.bro.ygg)
+  + `http://opennet.ru.bro.ygg` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/opennet.ru/opennet.ru.bro.ygg)
 * [pingvinus.ru](https://pingvinus.ru/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/pingvinus.ru)
   + `http://[201:5eb5:f061:678e:7565:6338:c02c:5251]/yggbro/pingvinus.ru/` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/pingvinus.ru/yggbro/pingvinus.ru)
-  + `pingvinus.ru.bro.ygg` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/pingvinus.ru/pingvinus.ru.bro.ygg)
+  + `http://pingvinus.ru.bro.ygg` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/pingvinus.ru/pingvinus.ru.bro.ygg)
 
 #### News
 
 * [texty.org.ua](https://texty.org.ua/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua)
   + `http://[201:5eb5:f061:678e:7565:6338:c02c:5251]/yggbro/texty.org.ua/` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua/yggbro/texty.org.ua)
-  + `texty.org.ua.bro.ygg` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua/texty.org.ua.bro.ygg)
+  + `http://texty.org.ua.bro.ygg` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua/texty.org.ua.bro.ygg)
