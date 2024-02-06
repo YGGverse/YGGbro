@@ -43,12 +43,12 @@ _*YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instance
 
 ## Registry
 
-### I2P
-
 ### Yggdrasil
 
 * [howto.ygg](howto.ygg) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/howto.ygg)
   + `http://betahowto.duckdns.org` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/howto.ygg/betahowto.duckdns.org)
+
+### I2P
 
 ### Internet
 
