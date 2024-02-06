@@ -1,6 +1,6 @@
 # YGGbro - proxy preset for modern servers
 
-Simply deploy new proxy or apply updates by few commands!
+Simple deploy new proxy and apply updates by few commands!
 
 ## Install
 
