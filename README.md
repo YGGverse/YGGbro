@@ -67,7 +67,7 @@ _*YGGbro project provides free namespace `.bro.ygg` for Yggdrasil proxy instance
   + `http://[201:5eb5:f061:678e:7565:6338:c02c:5251]/yggbro/texty.org.ua/` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua/yggbro/texty.org.ua)
   + `http://texty.org.ua.bro.ygg` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/texty.org.ua/texty.org.ua.bro.ygg)
 
-#### Documentary
+#### Homepages
 
 * [mentallandscape.com](http://mentallandscape.com/) | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/mentallandscape.com)
   + `http://[201:5eb5:f061:678e:7565:6338:c02c:5251]/yggbro/mentallandscape.com/` | [nginx](https://github.com/YGGverse/YGGbro/tree/main/nginx/mentallandscape.com/yggbro/mentallandscape.com)
